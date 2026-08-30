@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>St. Jude's Academy | Empowering Students</title>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&amp;family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "surface-dim": "#dbd9d9",
+                      "surface-container-low": "#f5f3f3",
+                      "tertiary-fixed-dim": "#c5c7c8",
+                      "primary-fixed-dim": "#b9c7e4",
+                      "on-primary-fixed": "#0d1c32",
+                      "on-primary-container": "#76849f",
+                      "surface-tint": "#515f78",
+                      "tertiary-fixed": "#e1e3e4",
+                      "surface-bright": "#fbf9f8",
+                      "surface-container": "#efeded",
+                      "on-secondary-fixed-variant": "#5d4201",
+                      "surface-container-lowest": "#ffffff",
+                      "on-secondary-fixed": "#261900",
+                      "on-secondary": "#ffffff",
+                      "surface-container-highest": "#e4e2e2",
+                      "on-surface": "#1b1c1c",
+                      "background": "#fbf9f8",
+                      "primary-container": "#0d1c32",
+                      "inverse-on-surface": "#f2f0f0",
+                      "on-tertiary": "#ffffff",
+                      "on-secondary-container": "#785a1a",
+                      "on-background": "#1b1c1c",
+                      "tertiary-container": "#191c1d",
+                      "surface-variant": "#e4e2e2",
+                      "on-primary": "#ffffff",
+                      "on-error-container": "#93000a",
+                      "on-error": "#ffffff",
+                      "on-tertiary-fixed-variant": "#454748",
+                      "on-surface-variant": "#44474d",
+                      "outline": "#75777e",
+                      "primary-fixed": "#d6e3ff",
+                      "on-primary-fixed-variant": "#39475f",
+                      "secondary-fixed-dim": "#e9c176",
+                      "on-tertiary-fixed": "#191c1d",
+                      "secondary-fixed": "#ffdea5",
+                      "error": "#ba1a1a",
+                      "error-container": "#ffdad6",
+                      "on-tertiary-container": "#828485",
+                      "primary": "#0d1c32",
+                      "inverse-surface": "#303030",
+                      "secondary-container": "#fed488",
+                      "tertiary": "#000000",
+                      "surface": "#fbf9f8",
+                      "inverse-primary": "#b9c7e4",
+                      "secondary": "#775a19",
+                      "surface-container-high": "#eae8e7",
+                      "outline-variant": "#c5c6cd"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                      "stack-lg": "32px",
+                      "container-max": "1280px",
+                      "gutter": "24px",
+                      "margin-desktop": "64px",
+                      "stack-md": "16px",
+                      "section-gap": "120px",
+                      "stack-sm": "8px",
+                      "margin-mobile": "20px"
+              },
+              "fontFamily": {
+                      "button": [
+                              "Manrope"
+                      ],
+                      "headline-md": [
+                              "\"Source Serif 4\""
+                      ],
+                      "display-lg": [
+                              "\"Source Serif 4\""
+                      ],
+                      "label-caps": [
+                              "Manrope"
+                      ],
+                      "headline-sm": [
+                              "\"Source Serif 4\""
+                      ],
+                      "body-lg": [
+                              "Manrope"
+                      ],
+                      "body-md": [
+                              "Manrope"
+                      ],
+                      "display-lg-mobile": [
+                              "\"Source Serif 4\""
+                      ]
+              },
+              "fontSize": {
+                      "button": [
+                              "14px",
+                              {
+                                      "lineHeight": "20px",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "headline-md": [
+                              "32px",
+                              {
+                                      "lineHeight": "40px",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "display-lg": [
+                              "56px",
+                              {
+                                      "lineHeight": "64px",
+                                      "letterSpacing": "-0.02em",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "label-caps": [
+                              "12px",
+                              {
+                                      "lineHeight": "16px",
+                                      "letterSpacing": "0.1em",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "headline-sm": [
+                              "24px",
+                              {
+                                      "lineHeight": "32px",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "body-lg": [
+                              "18px",
+                              {
+                                      "lineHeight": "28px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "body-md": [
+                              "16px",
+                              {
+                                      "lineHeight": "24px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "display-lg-mobile": [
+                              "36px",
+                              {
+                                      "lineHeight": "44px",
+                                      "letterSpacing": "-0.01em",
+                                      "fontWeight": "700"
+                              }
+                      ]
+              }
+      },
+          },
+        }
+    </script>
+<style>
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s ease-out;
+        }
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .lightbox {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(13, 28, 50, 0.9);
+        }
+        .lightbox.active {
+            display: flex;
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body-md antialiased overflow-x-hidden">
+<!-- Top Navigation -->
+<nav class="fixed top-0 w-full z-50 bg-surface/80 dark:bg-surface-container-highest/80 backdrop-blur-md border-b border-outline-variant/30 shadow-sm transition-all duration-300" id="navbar">
+<div class="flex justify-between items-center px-margin-mobile md:px-margin-desktop py-4 max-w-container-max mx-auto">
+<a class="flex items-center gap-2" href="#">
+<img alt="St. Jude's Academy Logo" class="h-10 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBb9Yd_7Wd2GV7VQfUABmS3UY_pZQO5SD1fMF-nzgu8T3l7BLvcCfyoOiepl5w_CtrwqAtmVHmTI38KsXohTXMAJ5WR72NtdYETmXC5uhYr7ZeIoxnvgm9VFWEGFflXbIpSHmIM7ay5rFzxYN5kBDFn505sqs9bbU5arA9VWXq_UpsXpJL55Fz4aZQ5srATeKZtIAN9GIBxA6TAU6RO9SECn3W6jwyItXLzlu3a0sPtthCBf1cnmec"/>
+<span class="font-headline-sm text-headline-sm font-bold text-primary dark:text-primary-fixed hidden sm:block">St. Jude's Academy</span>
+</a>
+<div class="hidden md:flex gap-6 items-center">
+<a class="font-button text-button text-on-surface-variant hover:text-primary transition-colors duration-200" href="#about">About</a>
+<a class="font-button text-button text-on-surface-variant hover:text-primary transition-colors duration-200" href="#academics">Academics</a>
+<a class="font-button text-button text-on-surface-variant hover:text-primary transition-colors duration-200" href="#facilities">Facilities</a>
+<a class="font-button text-button text-on-surface-variant hover:text-primary transition-colors duration-200" href="#news">News</a>
+<a class="font-button text-button text-primary dark:text-primary-fixed border-b-2 border-secondary font-bold pb-1" href="#admission">Admission</a>
+</div>
+<div class="flex items-center gap-4">
+<a class="hidden md:inline-flex bg-primary text-on-primary font-button text-button px-6 py-2 rounded-lg hover:bg-primary-container transition-colors duration-200" href="#admission">Apply Now</a>
+<button aria-label="Menu" class="md:hidden text-primary" id="mobile-menu-btn">
+<span class="material-symbols-outlined text-3xl">menu</span>
+</button>
+</div>
+</div>
+<!-- Mobile Menu -->
+<div class="hidden md:hidden bg-surface border-t border-outline-variant/30 px-margin-mobile py-4 flex-col gap-4 shadow-lg absolute w-full" id="mobile-menu">
+<a class="font-button text-button text-on-surface-variant block py-2" href="#about">About</a>
+<a class="font-button text-button text-on-surface-variant block py-2" href="#academics">Academics</a>
+<a class="font-button text-button text-on-surface-variant block py-2" href="#facilities">Facilities</a>
+<a class="font-button text-button text-on-surface-variant block py-2" href="#news">News</a>
+<a class="font-button text-button text-primary font-bold block py-2" href="#admission">Admission</a>
+<a class="bg-primary text-on-primary font-button text-button px-6 py-2 rounded-lg text-center mt-2 block" href="#admission">Apply Now</a>
+</div>
+</nav>
+<main class="pt-20">
+<!-- Hero Section -->
+<section class="relative min-h-[90vh] flex items-center bg-surface-container-lowest overflow-hidden" id="home">
+<div class="absolute inset-0 z-0">
+<div class="w-full h-full bg-cover bg-center" data-alt="A sweeping, cinematic establishing shot of a prestigious private school campus in the morning light. The architecture is modern classic with red brick and large glass windows. A diverse group of students in smart navy uniforms are walking across a lush green quad. The scene is bright, optimistic, and bathed in golden hour sunlight, emphasizing a safe, inspiring educational environment. The color palette focuses on natural greens, warm sunlight, and deep navy tones." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAwriqFFBnC1-37eQp2ZY3EOu3KI56luCa7NmCY8rJP_oRr_u7x6jLZ9PDgphSnwieg9QZJ9vVTwTtrfI_vXWVPSEaKqCTUjinmrveLZDY4dZmoXZZ4tDocgRyhfuTZM9XM2NisZKccoMnlNgOfnr_DN-ZDrmbb7XN3R1f10c0K01h-rTGqJMz6S2RI1Ma6mD19RseX4cnKPT_-I0EswYHETxBnllbPmkQ1xdJ9_V9NKPCjxR14Egg')">
+<div class="absolute inset-0 bg-primary/40 bg-gradient-to-r from-primary/80 to-transparent"></div>
+</div>
+</div>
+<div class="relative z-10 w-full max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-section-gap reveal">
+<div class="max-w-2xl text-on-primary">
+<div class="inline-flex items-center gap-2 bg-surface/20 backdrop-blur-sm border border-surface/30 px-4 py-1.5 rounded-full mb-stack-lg">
+<span class="w-2 h-2 rounded-full bg-secondary-container animate-pulse"></span>
+<span class="font-label-caps text-label-caps text-secondary-fixed">Admissions Open 2026-27</span>
+</div>
+<h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg mb-stack-md text-surface-container-lowest">
+                        Empowering Students for a Brighter Future
+                    </h1>
+<p class="font-body-lg text-body-lg text-surface-container-low/90 mb-stack-lg max-w-xl">
+                        At St. Jude's Academy, we cultivate intellectual curiosity and personal growth in a secure, dynamic environment, preparing the leaders of tomorrow.
+                    </p>
+<div class="flex flex-wrap gap-4">
+<a class="bg-secondary text-on-secondary-fixed font-button text-button px-8 py-3 rounded-lg hover:bg-secondary-container transition-colors duration-200 shadow-md" href="#admission">
+                            Apply Now
+                        </a>
+<a class="border border-surface-container-lowest text-surface-container-lowest font-button text-button px-8 py-3 rounded-lg hover:bg-surface-container-lowest/10 transition-colors duration-200" href="#about">
+                            Explore School
+                        </a>
+</div>
+</div>
+</div>
+</section>
+<!-- About Section -->
+<section class="py-section-gap bg-surface px-margin-mobile md:px-margin-desktop" id="about">
+<div class="max-w-container-max mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-gutter items-center">
+<div class="reveal">
+<h2 class="font-headline-md text-headline-md text-primary mb-stack-md">A Legacy of Excellence</h2>
+<div class="w-16 h-1 bg-secondary mb-stack-lg"></div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-stack-md">
+                            Since our founding, St. Jude's Academy has been dedicated to providing a transformative educational experience. We believe in holistic development, fostering academic rigor alongside character building and community engagement.
+                        </p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-stack-md mt-stack-lg">
+<div class="bg-surface-container-low p-6 rounded-lg border border-outline-variant/30">
+<span class="material-symbols-outlined text-secondary text-3xl mb-2">visibility</span>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-2">Our Vision</h3>
+<p class="font-body-md text-body-md text-on-surface-variant text-sm">To be a global leader in innovative education, inspiring lifelong learners.</p>
+</div>
+<div class="bg-surface-container-low p-6 rounded-lg border border-outline-variant/30">
+<span class="material-symbols-outlined text-secondary text-3xl mb-2">flag</span>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-2">Our Mission</h3>
+<p class="font-body-md text-body-md text-on-surface-variant text-sm">To nurture potential through personalized attention and rigorous academic programs.</p>
+</div>
+</div>
+</div>
+<div class="reveal">
+<div class="relative">
+<img class="rounded-xl shadow-lg w-full h-[500px] object-cover" data-alt="A professional, well-lit portrait of a friendly but authoritative school principal, a middle-aged woman wearing a smart navy blazer, standing in a bright, modern school library. She is smiling warmly at the camera. The background shows blurred bookshelves and students studying, conveying a sense of academic focus and approachability. The overall tone is corporate modern with a warm, educational feel." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB8E_mehpob7As7XV1BnIBkyVjXDWgcBRDJH70sA68kYvx7DrP61_OOuBoHdi0iLDhcQodqVTeglPTSSFWjyZNFfAux8VeWPOcS80dXji0kBEAPRH8eia3JbyxLgFBkWdrvf8y3hSO9-Im0D3Kpr4Y_T4TBfG_KtUDoW-3HxIdbIchkT80ZUUqyhFM4ELDf_GhqRqUpCXIEcCa4mGWo-5-4GZvsSNk8Yt-wAX2RGmyVL0g66eWo7N4"/>
+<div class="absolute -bottom-8 -left-8 bg-surface p-6 rounded-xl shadow-xl border border-outline-variant/20 max-w-sm hidden md:block">
+<p class="font-headline-md text-headline-md italic text-primary-container mb-4 font-serif text-lg leading-relaxed">"Education is not just about academics; it's about shaping character and inspiring minds to achieve the extraordinary."</p>
+<div class="flex items-center gap-4 border-t border-outline-variant/30 pt-4">
+<div class="w-10 h-[2px] bg-secondary"></div>
+<div>
+<p class="font-button text-button text-primary">Dr. Eleanor Vance</p>
+<p class="font-label-caps text-label-caps text-on-surface-variant">Principal</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Facilities Section (Bento Grid) -->
+<section class="py-section-gap bg-surface-container-low px-margin-mobile md:px-margin-desktop" id="facilities">
+<div class="max-w-container-max mx-auto">
+<div class="text-center max-w-3xl mx-auto mb-16 reveal">
+<span class="font-label-caps text-label-caps text-secondary tracking-widest uppercase mb-2 block">Campus Life</span>
+<h2 class="font-headline-md text-headline-md text-primary mb-stack-md">World-Class Facilities</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Providing an environment that supports academic excellence and holistic development.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 auto-rows-[250px] reveal">
+<!-- Large Feature Card -->
+<div class="md:col-span-2 lg:col-span-2 md:row-span-2 relative group overflow-hidden rounded-xl shadow-sm border border-outline-variant/20 bg-surface">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="A wide angle shot of a state-of-the-art smart classroom. High tech interactive whiteboards, sleek ergonomic desks arranged for collaboration, and bright natural light streaming through large windows. Students in uniform are engaged in a group project using laptops. The style is clean, modern, and high-contrast, emphasizing technological integration in education." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCd1q2Nf5vwFLWHssxBWvmGXnHgBRxf4KvxU0oDS2_ng75C1_8HO22dJxqAh4dReC0VhxzCiXf46dAcF076D9ezX6lpAweDlYq9CeUe1HcLufsVEHkkeq9MTtN7qEXKMuaJcEsDfNsjJ6UnDmA6l5zS4IOUx4gi0hBfANLc7LjjQURYFDnd87i6pRDRMkON1Ps0fZKCTi1_yHIN_HtPREkNm7lgtShYMsoiEHZUPKtIHntZ-RSFCE8')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/40 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-6 text-surface-container-lowest">
+<div class="bg-secondary/90 w-12 h-12 rounded-full flex items-center justify-center mb-4 backdrop-blur-sm">
+<span class="material-symbols-outlined text-on-secondary-fixed">cast_for_education</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm mb-2">Smart Classrooms</h3>
+<p class="font-body-md text-sm text-surface-container-lowest/80">Interactive learning environments equipped with the latest educational technology.</p>
+</div>
+</div>
+<!-- Standard Cards -->
+<div class="relative group overflow-hidden rounded-xl shadow-sm border border-outline-variant/20 bg-surface">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="A modern, well-stocked science laboratory with stainless steel benches, microscopes, and glassware. Bright, clinical lighting creates a clean, focused atmosphere. The color palette features cool blues and stark whites." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAq3Zg_5N9cr
